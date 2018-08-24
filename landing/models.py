@@ -8,7 +8,6 @@ class Subscriber(models.Model):
     def __str__(self):
         return "User %s %s" % (self.name, self.email,)
 
-
     class Meta:
         verbose_name = 'MySubscriber'
         verbose_name_plural = 'A lot of Subscribers'
